@@ -1,0 +1,23 @@
+{
+    "name": "olayo/mikrotik_api",
+    "description": "A secure PHP API for managing MikroTik routers, including hotspot and firewall management.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Olayo\\MikrotikApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IanOlayo"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0"
+        "pear2/net_routeros": "^1.0",
+        "evilfreelancer/routeros-api-php": "^1.5"
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
